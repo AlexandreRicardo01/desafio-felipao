@@ -24,5 +24,5 @@ function calcularNivel(vitorias, derrotas) {
 }
 
 
-let resultado = calcularNivel(90,100); 
+let resultado = calcularNivel(1000,50); 
 console.log(resultado);
