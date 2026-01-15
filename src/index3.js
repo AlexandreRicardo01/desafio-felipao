@@ -37,3 +37,7 @@ let heroi5 = new Heroi ("Magneto", 80, "Mutante")
 let heroi7 = new Heroi ("Fênix Negra", 100, "Cosmico")
 
 heroi5.atacar();
+
+// Fiz esse projeto usando os moldes do desafio original, 
+// mas adaptando a um jogo chamado Marvel Contest of Champions
+// que possui suas proprias classes, personagens e habilidades.
