@@ -1,12 +1,10 @@
-// 1. Criamos a função que recebe vitórias e derrotas
 function calcularNivel(vitorias, derrotas) {
-    // Cálculo do saldo
+    
     let heroi = "Homem-Aranha";
     let saldoVitorias = vitorias - derrotas;
     let nivel = "";
 
-    // 2. Estrutura de decisão para definir o nível baseado nas VITÓRIAS
-    if (saldoVitorias <= 10) {
+   if (saldoVitorias <= 10) {
         nivel = "Ferro";
     } else if (saldoVitorias >= 11 && saldoVitorias <= 20) {
         nivel = "Bronze";
@@ -22,7 +20,6 @@ function calcularNivel(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    // Retornamos a frase formatada
     return `O ${heroi} tem de saldo de ${saldoVitorias} está no nível de ${nivel}`;
 }
 
